@@ -1,0 +1,28 @@
+# Django
+*.sqlite3
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Environment variables
+.env
+.venv
+env/
+
+# Virtual environment
+venv/
+myenv/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Media and static files (if not tracked)
+media/
+staticfiles/
+
+# Celery
+celerybeat-schedule
+
+# Logs
+*.log
